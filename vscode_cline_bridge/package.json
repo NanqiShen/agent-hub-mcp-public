@@ -1,0 +1,21 @@
+{
+  "name": "agent-hub-cline-bridge",
+  "displayName": "Agent Hub Cline Bridge",
+  "description": "Authenticated loopback bridge exposing Cline extension API (startNewTask/sendMessage) to local Agent Hub MCP.",
+  "version": "0.1.0",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*",
+    "onStartupFinished"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "main": "./extension.js"
+}
